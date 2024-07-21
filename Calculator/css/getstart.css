@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: Poppins;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-image: linear-gradient(to top,#012a4a,#06487a);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ebf8fc;
+    font-weight: 500;
+}
+
+#conte{
+    justify-content: center;
+    align-items: center;
+    transform: translateY(180%);
+}
+
+#sta{
+    font-size: 60px;
+}
+
+#butt{
+    width:200px;
+    height:50px;
+    border-radius: 100px;
+    background-color: #ebf8fc;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+    color: #012a4a;
+}
+
+#butt:hover{
+    background-color: #d2eef9;
+    cursor: pointer;
+}
